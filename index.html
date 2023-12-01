@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <!-- ===================== Bootsrap ================== -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
+    <!-- integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+    <!-- ============== Google fonts ============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ================== CSS ================ -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <nav>
+
+        <button onclick="topFunction()" id="scroll__btn" title="Go to top">
+            <i class="ri-arrow-up-line"></i>
+        </button>
+
+        <div class="navbar">
+            <div class="container">
+
+                <div class="nav__menu">
+                    <div class="logo">
+                        <i class="ri-earth-fill"></i>
+                        <h2 class="logo__title">Countries</h2>
+                    </div>
+
+                    <div class="btns">
+                        <button class="login__btn"><a href="./Regester/register.html">Login</a></button>
+                        <button class="sign__btn"><a href="./login/login.html">Sign Up</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <header class="container">
+
+        <form>
+            <div class="search">
+                <div class="search__bg"><i class="ri-search-line"></i></div>
+                <input type="text" id="myFilter" onkeyup="myFunction()" placeholder="Search countries . . .">
+                <!-- <input   id="filter_users" type="text" name="search"  placeholder="Search countries . . ." required> -->
+            </div>
+        </form>
+
+        <div class="row" id="myItems">
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Afghanistan.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Avganistan</h5>
+                            <h6 class="card__area"><span>Area:</span> 652,2 km2</h6>
+                            <p class="card__number"><span>Population:</span> 32 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Afghanistan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Albania.webp" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Albania</h5>
+                            <h6 class="card__area"><span>Area:</span> 28,7 km2</h6>
+                            <p class="card__number"><span>Population:</span> 2902488</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Albania">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Andorra_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Andorra</h5>
+                            <h6 class="card__area"><span>Area:</span> 465,2 km2</h6>
+                            <p class="card__number"><span>Population:</span> 112348</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Andorra">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Angola_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Angola</h5>
+                            <h6 class="card__area"><span>Area:</span> 1246,7 km2</h6>
+                            <p class="card__number"><span>Population:</span> 18 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Angola">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Antigua_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Antigua</h5>
+                            <h6 class="card__area"><span>Area:</span> 441,6 km2</h6>
+                            <p class="card__number"><span>Population:</span> 64,300</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Antigua">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Afghanistan.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Argentina</h5>
+                            <h6 class="card__area"><span>Area:</span> 2,780,400 km2</h6>
+                            <p class="card__number"><span>Population:</span> 36,1 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Argentina">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Armanistan__flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Armaniston</h5>
+                            <h6 class="card__area"><span>Area:</span> 29,8 km2</h6>
+                            <p class="card__number"><span>Population:</span> 3,277 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Armenia">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Avstralia__flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Australia</h5>
+                            <h6 class="card__area"><span>Area:</span> 7,692,024 km2</h6>
+                            <p class="card__number"><span>Population:</span> 25,8 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Australia">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Bahrain_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Bahrain</h5>
+                            <h6 class="card__area"><span>Area:</span> 695,2 km2</h6>
+                            <p class="card__number"><span>Population:</span> 1,870,817 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Bahrain">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Bangladesh.svg.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Bangladesh</h5>
+                            <h6 class="card__area"><span>Area:</span> 144 km2</h6>
+                            <p class="card__number"><span>Population:</span> 204 mil</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Bangladesh">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Barbados.svg.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Barbados</h5>
+                            <h6 class="card__area"><span>Area:</span> 430 km2</h6>
+                            <p class="card__number"><span>Population:</span> 411 ming</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Barbados">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Belarus.svg.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Belarus</h5>
+                            <h6 class="card__area"><span>Area:</span> 207,600 km2</h6>
+                            <p class="card__number"><span>Population:</span> 9,2 mil</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Belarus">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Brazil_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Brazil</h5>
+                            <h6 class="card__area"><span>Area:</span> 8512 ming km2</h6>
+                            <p class="card__number"><span>Population:</span> 192,376,496 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Brazil">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Flag_of_Denmark.svg.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Dania</h5>
+                            <h6 class="card__area"><span>Area:</span> 43043 km2</h6>
+                            <p class="card__number"><span>Population:</span> 5,8 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Dania">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Eron_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Iran</h5>
+                            <h6 class="card__area"><span>Area:</span> 1648,95 km2</h6>
+                            <p class="card__number"><span>Population:</span> 86,8 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Iran">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Fransiya_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> France</h5>
+                            <h6 class="card__area"><span>Area:</span> 643,801 km2</h6>
+                            <p class="card__number"><span>Population:</span> 68 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/France">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Germany_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Germany</h5>
+                            <h6 class="card__area"><span>Area:</span> 357 km2</h6>
+                            <p class="card__number"><span>Population:</span> 83,1 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Germany">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Greence_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Greece</h5>
+                            <h6 class="card__area"><span>Area:</span> 131,9 km2</h6>
+                            <p class="card__number"><span>Population:</span> 11,3 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Greece">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/India_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> India</h5>
+                            <h6 class="card__area"><span>Area:</span> 3,3 mln km2</h6>
+                            <p class="card__number"><span>Population:</span> 1,4 mlrd</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/India">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Indonesia_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Indonesia</h5>
+                            <h6 class="card__area"><span>Area:</span> 1904,6 km2</h6>
+                            <p class="card__number"><span>Population:</span> 265 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Indonesia">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Uzb_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Uzbekistan</h5>
+                            <h6 class="card__area"><span>Area:</span> 448,978 km2</h6>
+                            <p class="card__number"><span>Population:</span> 36 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Uzbekistan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Usa_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Usa</h5>
+                            <h6 class="card__area"><span>Area:</span> 9,8 mln km2</h6>
+                            <p class="card__number"><span>Population:</span> 332 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Usa">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Ukraine_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Ukraine</h5>
+                            <h6 class="card__area"><span>Area:</span> 603,628 km2</h6>
+                            <p class="card__number"><span>Population:</span> 41,1 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Ukraine">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Vietnam_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Vietnam</h5>
+                            <h6 class="card__area"><span>Area:</span> 330,991 km2</h6>
+                            <p class="card__number"><span>Population:</span> 90,5 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Vietnam">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Tajik_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Tajikistan</h5>
+                            <h6 class="card__area"><span>Area:</span> 143.1 km2</h6>
+                            <p class="card__number"><span>Population:</span> 8,5 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Tajikistan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Turkey_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Turkey</h5>
+                            <h6 class="card__area"><span>Area:</span> 783,562 km2</h6>
+                            <p class="card__number"><span>Population:</span> 84.7 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Turkey">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Turk_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Turkmenistan</h5>
+                            <h6 class="card__area"><span>Area:</span> 488,1 km2</h6>
+                            <p class="card__number"><span>Population:</span> 9 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Turkmenistan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Japan_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Japan</h5>
+                            <h6 class="card__area"><span>Area:</span> 377,8 km2</h6>
+                            <p class="card__number"><span>Population:</span> 126 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Japan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Israel_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Israel</h5>
+                            <h6 class="card__area"><span>Area:</span> 20 770 km2</h6>
+                            <p class="card__number"><span>Population:</span> 8,5 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Israel">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Italy_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Italy</h5>
+                            <h6 class="card__area"><span>Area:</span> 301,2 km2</h6>
+                            <p class="card__number"><span>Population:</span> 622,3 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Italy">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Canada_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Canada</h5>
+                            <h6 class="card__area"><span>Area:</span> 9,984,840 km2</h6>
+                            <p class="card__number"><span>Population:</span> 40,2 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Canada">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Korea_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> South Korea</h5>
+                            <h6 class="card__area"><span>Area:</span> 100,210 km2</h6>
+                            <p class="card__number"><span>Population:</span> 52 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/South_Korea">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Qatar_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Qatar</h5>
+                            <h6 class="card__area"><span>Area:</span> 11,4 km2</h6>
+                            <p class="card__number"><span>Population:</span> 793,3 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Qatar">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Qirgiz_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Kyrgyzstan</h5>
+                            <h6 class="card__area"><span>Area:</span> 198,5 km2</h6>
+                            <p class="card__number"><span>Population:</span> 6,5 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Kyrgyzstan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Kazak_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Kazakistan</h5>
+                            <h6 class="card__area"><span>Area:</span> 2,7 mln km2</h6>
+                            <p class="card__number"><span>Population:</span> 19,17 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Kazakhstan">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Rus_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Russia</h5>
+                            <h6 class="card__area"><span>Area:</span> 17,1 mln km2</h6>
+                            <p class="card__number"><span>Population:</span> 145,3 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Russia">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/China_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> China</h5>
+                            <h6 class="card__area"><span>Area:</span> 9,6 mln km2</h6>
+                            <p class="card__number"><span>Population:</span>1 mlrd 394 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/China">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Chile_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Chile</h5>
+                            <h6 class="card__area"><span>Area:</span> 756,950 km2</h6>
+                            <p class="card__number"><span>Population:</span> 16,1 mln</p>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Chile">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/shvet_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Shvetsia</h5>
+                            <h6 class="card__area"><span>Area:</span> 450,000 km2</h6>
+                            <p class="card__number"><span>Population:</span> 9,5 mil</p>
+                            <a target="_blank"
+                                href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/Shveysaria_flag.png" alt="">
+                        <div class="titles">
+                            <h5 class="card__title"><span>Country:</span> Shveysaria</h5>
+                            <h6 class="card__area"><span>Area:</span> 41,285 km2</h6>
+                            <p class="card__number"><span>Population:</span> 10 mil</p>
+                            <a target="_blank"
+                                href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B0%D0%B3_%D0%A8%D0%B2%D0%B5%D0%B9%D1%86%D0%B0%D1%80%D0%B8%D0%B8">
+                                <button class="learn__btn">Learn More <i class="ri-arrow-right-up-line"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <nav-end>
+
+        <div class="line"></div>
+
+        <div class="container">
+            <p class="text">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+
+    </nav-end>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
